@@ -49,6 +49,7 @@
 
     if (self.url) {
         [self processOpenUrl:self.url pageLoaded:YES];
+        //Commented out as per https://github.com/EddyVerbruggen/Custom-URL-scheme/issues/93#issuecomment-169849801
         self.url = nil;
     }
 }
